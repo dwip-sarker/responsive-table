@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /* 
 ---------------------------------------------
-CSS RESET
+CSS RESET & GLOBAL STYLE
 --------------------------------------------- 
 */
 * {
@@ -12,6 +12,15 @@ CSS RESET
 }
 html {
   font-size: 60.25%;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
 }
 
 /* 
@@ -69,4 +78,7 @@ table tr:last-child td:first-child {
 }
 table tr:last-child td:last-child {
   border-bottom-right-radius: 6px;
+}
+table tr:hover {
+  background-color: rgb(230, 230, 230);
 }
